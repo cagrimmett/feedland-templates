@@ -1,0 +1,57 @@
+{
+	"title": "Peekskill, NY",
+	"script": "console.log ('Peekskill, a friendly town')",
+	"style": [
+		"body { font-family: 'Open Sans', sans-serif; background-image: url(https://escapebrooklyn.com/wp-content/uploads/2021/05/peekskill-fred-camino.jpg); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; }",
+		".divPageBody { margin-top: 35px; }",
+        ".divRiverSection .spFeedTitle { background-color: white; }",
+        ".divRiverSection .spFeedPubDate { background-color: white; }",
+        ".divProductTitle { font-size: 65px !important; font-weight: bold; letter-spacing: unset; color: #ffffff; text-shadow: 6px 6px #000; }",
+        ".divRiverContent { border: 1px solid silver; min-height: 1000px; background-color: white; padding-top: -5px; }",
+        ".divRiverDisplay { margin-left: 35px;  margin-top: -10px; }",
+        "table, tbody, tr { display: block; }",
+        ".divRiverContent { background: white; border: 1px solid silver; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border-radius: 10px; }",
+        ".divRiverItemBody.bodyTruncated { -webkit-mask-image: -webkit-gradient(linear, 0 200, 0 110, from(rgba(255, 255, 255, 0)), color-stop(0.6, rgba(255, 255, 255, 0.9)), color-stop(1, rgb(255, 255, 255)), to(rgb(255, 255, 255))); transition: all 0.2s ease 0s; }",
+        ".divRiverItemBody { transition: all 0.2s ease 0s; }",
+		".divTabsContainer .divTabContent { padding-left: 8px; padding-right: 8px; }",
+		".nav-tabs { border-bottom: none; }",
+		".iTabIcon { padding-right: 8px !important; }",
+		"li.liTab { color: #fff; }",
+		"li.active, li.active:hover, li.liTab:hover  { color: #333; }",
+		".divTabsContainer .divTabs li { border-bottom: none; }",
+		".nav-tabs > li > a { padding-left: 5px; padding-right: 5px;}",
+        ".divRiverSection .spFeedPubDate { background: white; order: 2; }",
+		".divNewsProduct .divPageTop { justify-content: left; }",
+        "@media screen and (max-width: 900px ) { .divRiverDisplay { width: unset; } .divPageBody { width: 95%; } .divRiverPageTop { width: unset; } .divPageBody { margin: 0 auto; } .divRiverContent { width: unset; } .divProductTitle { font-size: 30px; } .divTitledItem .divTitle { font-size: 15px; } .divTitledItemBody { font-size: 13px; }}"
+    ],
+	"tabs": {
+		"city": {
+			"name": "Official City News",
+			"description": "News from various project and community blogs",
+			"screenname": "cagrimmett",
+			"catname": "peekskillcity",
+			"icon": "fa fa-building"
+			},
+		"local": {
+			"name": "Local News",
+			"description": "Fresh Trac tickets, ready to be patched",
+			"screenname": "cagrimmett",
+			"catname": "peekskilllocal",
+			"icon": "fa fa-newspaper"
+			},
+		"region": {
+			"name": "Regional News",
+			"description": "Updates from the WP Make Blogs",
+			"screenname": "cagrimmett",
+			"catname": "peekskillregion",
+			"icon": "fa fa-newspaper"
+			},
+        "twitter": {
+            "name": "Peekskill Twitter",
+            "description": "Updates from the WP Make Blogs",
+            "screenname": "cagrimmett",
+            "catname": "peekskilltwitter",
+			"icon": "fab fa-twitter"
+            }
+		}
+	}

@@ -1,0 +1,45 @@
+{
+	"title": "People and Blogs",
+	"script": "console.log('Hi, fellow blogger!'); var ribbon = document.createElement('div'); ribbon.classList.add('ribbon'); ribbon.innerHTML = '<a href=\"https://feedland.com\" target=\"_blank\">Made with FeedLand</a></div>'; document.getElementsByClassName('divPageBody')[0].appendChild(ribbon);",
+    "style": [
+		"body { font-family: \"Sentient\",\"Georgia\",serif; background-color: #fffcf2; }",
+		".ribbon { background-color: #f2a93c; overflow: hidden; white-space: nowrap; position: absolute; left: -50px; top: 40px; transform: rotate(-45deg); box-shadow: 0 0 10px #999;}",
+		".ribbon a { color: #fff; display: block; font: bold 81.25% \"Helvetica Neue\", Helvetica, Arial, sans-serif; margin: 1px 0; padding: 8px 50px; text-align: center; text-decoration: none; }",
+        ".divNewsProduct .divProductTitle { font-family: unset; letter-spacing: unset; }",
+        ".divTabsContainer .divTabs li { font-family: unset; }",
+		".divPageBody { margin-top: 40px; }",
+        ".divTabsContainer .divTabs .iTabIcon { display: none; }",
+        ".dicTabsContainer .divTabContent { padding-left: 0; padding-right: 0; }",
+        ".divRiverSection .spFeedTitle { background-color: white; }",
+        ".divRiverSection .spFeedPubDate { background-color: white; }",
+		".divTabsContainer .divTabContent { padding-left: 0; padding-right: 0; }",
+        ".divRiverPageTop .divProductTitle { font-size: 65px; font-weight: bold; letter-spacing: unset; color: #ffffff; text-shadow: 6px 6px #000; }",
+        ".divRiverContent { border: 1px solid silver; min-height: 1000px; background-color: white; padding-top: -5px; }",
+            ".divRiverDisplay { margin-left: 35px;  margin-top: -10px; }",
+            "table, tbody, tr { display: block; }",
+            ".divRiverContent { background: white; border: 1px solid silver; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border-radius: 10px; }",
+            ".divRiverItemBody.bodyTruncated { -webkit-mask-image: -webkit-gradient(linear, 0 200, 0 110, from(rgba(255, 255, 255, 0)), color-stop(0.6, rgba(255, 255, 255, 0.9)), color-stop(1, rgb(255, 255, 255)), to(rgb(255, 255, 255))); transition: all 0.2s ease 0s; }",
+            ".divRiverItemBody { transition: all 0.2s ease 0s; }",
+            ".divRiverSection .spFeedPubDate { background: white; order: 2; }"
+    ],
+	"tabs": {
+		"interviews": {
+			"name": "P&B Interviews",
+			"description": "Feed of the latest P&B interviews",
+			"screenname": "pbnewsproduct",
+			"catname": "pbseries"
+			},
+		"blogs": {
+			"name": "Interviewee Blogs",
+			"description": "Latest posts from P&B interviewees' blogs",
+			"screenname": "pbnewsproduct",
+			"catname": "pbinterviewees"
+			},
+		"recs": {
+			"name": "Interviewee Recommendations",
+			"description": "Posts from the blogs recommended by P&B interviewees",
+			"screenname": "pbnewsproduct",
+			"catname": "pbrecommendations"
+			}
+		}
+	}
