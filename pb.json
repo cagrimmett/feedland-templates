@@ -21,7 +21,7 @@
     ".divRiverItemBody.bodyTruncated { -webkit-mask-image: -webkit-gradient(linear, 0 200, 0 110, from(rgba(255, 255, 255, 0)), color-stop(0.6, rgba(255, 255, 255, 0.9)), color-stop(1, rgb(255, 255, 255)), to(rgb(255, 255, 255))); transition: all 0.2s ease 0s; }",
     ".divRiverItemBody { transition: all 0.2s ease 0s; }",
     ".divRiverSection .spFeedPubDate { background: white; order: 2; }",
-    "@media screen and (max-width: 900px ) { .ribbon a { padding: 5px; } .ribbon { left: 0; top: 0; transform: unset; } }"
+    "@media screen and (max-width: 900px ) { .ribbon a { padding: 5px; } .ribbon { left: 0; top: 0; transform: unset; } .divRiverDisplay { width: unset; } .divPageBody { width: 95%; } .divRiverPageTop { width: unset; } .divPageBody { margin: 0 auto; } .divRiverContent { width: unset; } .divTitledItem .divTitle { font-size: 15px; } .divTitledItemBody { font-size: 13px; } }"
   ],
   "tabs": {
     "interviews": {
