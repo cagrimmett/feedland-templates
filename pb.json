@@ -20,7 +20,8 @@
             ".divRiverContent { background: white; border: 1px solid silver; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border-radius: 10px; }",
             ".divRiverItemBody.bodyTruncated { -webkit-mask-image: -webkit-gradient(linear, 0 200, 0 110, from(rgba(255, 255, 255, 0)), color-stop(0.6, rgba(255, 255, 255, 0.9)), color-stop(1, rgb(255, 255, 255)), to(rgb(255, 255, 255))); transition: all 0.2s ease 0s; }",
             ".divRiverItemBody { transition: all 0.2s ease 0s; }",
-            ".divRiverSection .spFeedPubDate { background: white; order: 2; }"
+            ".divRiverSection .spFeedPubDate { background: white; order: 2; }",
+	    "@media screen and (max-width: 900px ) { .ribbon a { padding: 5px; } .ribbon { left: 0; top: 0; transform: unset; } }"
     ],
 	"tabs": {
 		"interviews": {
