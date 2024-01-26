@@ -24,19 +24,19 @@
     ],
 	"tabs": {
 		"interviews": {
-			"name": "P&B Interviews",
+			"name": "Interviews",
 			"description": "Feed of the latest P&B interviews",
 			"screenname": "pbnewsproduct",
 			"catname": "pbseries"
 			},
 		"blogs": {
-			"name": "Interviewee Blogs",
+			"name": "Feeds",
 			"description": "Latest posts from P&B interviewees' blogs",
 			"screenname": "pbnewsproduct",
 			"catname": "pbinterviewees"
 			},
 		"recs": {
-			"name": "Interviewee Recommendations",
+			"name": "Recs",
 			"description": "Posts from the blogs recommended by P&B interviewees",
 			"screenname": "pbnewsproduct",
 			"catname": "pbrecommendations"
