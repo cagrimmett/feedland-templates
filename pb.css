@@ -44,6 +44,7 @@ body {
 .divTabsContainer .divTabContent {
    padding-left: 0;
    padding-right: 0;
+   box-shadow: unset;
 }
 
 .divRiverSection .spFeedTitle {
