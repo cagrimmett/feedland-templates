@@ -1,3 +1,7 @@
+:root {
+   --content-background-color: #ffffff;
+}
+
 body {
    font-family: "Sentient" "Georgia", serif;
    background-color: #fffcf2;
